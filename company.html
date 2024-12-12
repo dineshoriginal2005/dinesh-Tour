@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Company History</title>
+    <script src="https://kit.fontawesome.com/cd93df998c.js" crossorigin="anonymous"></script>
+    <style>
+        /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #2a7fff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #888;
+}
+
+/* History Section */
+.history {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.event {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: flex-start;
+}
+
+.year {
+    font-size: 2em;
+    font-weight: bold;
+    color: #2a7fff;
+    width: 80px;
+    text-align: center;
+}
+
+.description {
+    max-width: 750px;
+    padding-left: 20px;
+}
+
+.description h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .event {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .year {
+        margin-bottom: 10px;
+    }
+
+    .description {
+        padding-left: 0;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1> <i class="fa-solid fa-warehouse"></i> Our Company History</h1>
+    </header>
+
+    <section class="history">
+        <div class="timeline">
+            <div class="event">
+                <div class="year">1990</div>
+                <div class="description">
+                    <h2>Founding of the Company</h2>
+                    <p>Our company was founded in 1990 with a mission to provide high-quality products and services to our customers.</p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="year">2000</div>
+                <div class="description">
+                    <h2>Expansion into New Markets</h2>
+                    <p>In 2000, we expanded our operations into new regions, growing our customer base and establishing ourselves as a global player.</p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="year">2010</div>
+                <div class="description">
+                    <h2>Innovation in Technology</h2>
+                    <p>By 2010, we introduced cutting-edge technology solutions, setting industry standards and improving the customer experience.</p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="year">2020</div>
+                <div class="description">
+                    <h2>Global Recognition</h2>
+                    <p>In 2020, we were recognized globally for our contributions to the industry, winning multiple awards for innovation and excellence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Our Company. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
